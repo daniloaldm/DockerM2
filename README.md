@@ -16,6 +16,8 @@ Execute no seu terminal, altere o * MYMAGENTO2 * para usar o nome do seu projeto
 
 ```
 git clone https://github.com/daniloaldm/DockerDragStar.git MYMAGENTO2
+cd MYMAGENTO2
+docker-compose build
 ```
 
 ### Painéis
