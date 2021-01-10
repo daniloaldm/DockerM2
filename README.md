@@ -47,11 +47,11 @@ git clone https://github.com/daniloaldm/DockerDragStar.git MYMAGENTO2
 
 ### Elasticsearch 
 
-To use elastic search you can use this command below:
+Para usar a pesquisa elástica, você pode usar este comando abaixo:
 
 `$ docker-compose -f docker-compose.yml -f docker-compose.elasticsearch.yml up`
 
-or to run in the background using detached mode
+ou para executar em segundo plano usando o modo separado
 
 `$ docker-compose -f docker-compose.yml -f docker-compose.elasticsearch.yml up -d`
 
