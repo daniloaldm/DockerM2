@@ -34,19 +34,14 @@ git clone https://github.com/daniloaldm/DockerDragStar.git MYMAGENTO2
 | `./stop`  | Pare os contêineres do seu projeto  | |
 | `./kill`  | Para contêineres e remove contêineres, volumes e imagens criadas para o projeto específico  | |
 | `./shell`  | Acesse seu contêiner  | `./shell root` | |
-<!---
-| `./magento`  | Use o poder do Magento CLI  | |
--->
 | `./n98`  | Use os comandos Magerun como quiser | |
-<!---
-| `./grunt-init`  | Prepare-se para usar o Grunt  | |
-| `./grunt`  | Use o Grunt especificamente em seu tema ou completamente, ele fará a implantação e o observador.  | `./grunt luma` |
--->
 | `./xdebug`  |  Ativar / desativar o XDebug | |
 <!---
+| `./magento`  | Use o poder do Magento CLI  | |
+| `./grunt-init`  | Prepare-se para usar o Grunt  | |
+| `./grunt`  | Use o Grunt especificamente em seu tema ou completamente, ele fará a implantação e o observador.  | `./grunt luma` |
+| `./xdebug`  |  Ativar / desativar o XDebug | |
 | `./composer`  |  Use os comandos do Composer | `./composer update` |
--->
-<!---
 | `./init`  | Se você não usou o comando CURL setup acima, use este comando alterando o nome do projeto.  | `./init MYMAGENTO2` |
 -->
 
