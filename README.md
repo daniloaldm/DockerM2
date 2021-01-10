@@ -8,7 +8,7 @@
 
 **Linux:**
 
-Instalar [Docker](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/) and [Docker-compose](https://docs.docker.com/compose/install/#install-compose).
+Instalar [Docker](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/) e [Docker-compose](https://docs.docker.com/compose/install/#install-compose).
 
 ### Como usar
 
@@ -30,17 +30,17 @@ git clone https://github.com/daniloaldm/DockerDragStar.git MYMAGENTO2
 
 | Comandos  | Descrição  | Opções e exemplos |
 |---|---|---|
-| `./init`  | If you didn't use the CURL setup command above, please use this command changing the name of the project.  | `./init MYMAGENTO2` |
-| `./start`  | If you continuing not using the CURL you can start your container manually  | |
-| `./stop`  | Stop your project containers  | |
-| `./kill`  | Stops containers and removes containers, networks, volumes, and images created to the specific project  | |
-| `./shell`  | Access your container  | `./shell root` | |
-| `./magento`  | Use the power of the Magento CLI  | |
-| `./n98`  | Use the Magerun commands as you want | |
-| `./grunt-init`  | Prepare to use Grunt  | |
-| `./grunt`  | Use Grunt specifically in your theme or completely, it'll do the deploy and the watcher.  | `./grunt luma` |
-| `./xdebug`  |  Enable / Disable the XDebug | |
-| `./composer`  |  Use Composer commands | `./composer update` |
+| `./init`  | Se você não usou o comando CURL setup acima, use este comando alterando o nome do projeto.  | `./init MYMAGENTO2` |
+| `./start`  | Iniciar seu contêiner manualmente  | |
+| `./stop`  | Pare os contêineres do seu projeto  | |
+| `./kill`  | Para contêineres e remove contêineres, volumes e imagens criadas para o projeto específico  | |
+| `./shell`  | Acesse seu contêiner  | `./shell root` | |
+| `./magento`  | Use o poder do Magento CLI  | |
+| `./n98`  | Use os comandos Magerun como quiser | |
+| `./grunt-init`  | Prepare-se para usar o Grunt  | |
+| `./grunt`  | Use o Grunt especificamente em seu tema ou completamente, ele fará a implantação e o observador.  | `./grunt luma` |
+| `./xdebug`  |  Ativar / desativar o XDebug | |
+| `./composer`  |  Use os comandos do Composer | `./composer update` |
 
 ### Elasticsearch 
 
