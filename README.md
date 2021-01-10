@@ -16,16 +16,6 @@ Execute in your terminal, change the *MYMAGENTO2* to use the name of your projec
 
 ```
 git clone https://github.com/daniloaldm/DockerDragStar.git dockerDragstar
-
-```
-
-If you want to install the Magento 2, use like that:
-
-```
-cd MYMAGENTO2
-./shell
-rm index.php
-install-magento2
 ```
 
 You can specify the version that want install (e.g. `install-magento2 2.2`).
