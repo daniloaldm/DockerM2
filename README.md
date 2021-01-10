@@ -18,8 +18,6 @@ Execute in your terminal, change the *MYMAGENTO2* to use the name of your projec
 git clone https://github.com/daniloaldm/DockerDragStar.git dockerDragstar
 ```
 
-You can specify the version that want install (e.g. `install-magento2 2.2`).
-
 ### Panels
 
 Enjoy your new panels!
