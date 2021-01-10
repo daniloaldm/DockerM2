@@ -1,7 +1,6 @@
 version: '2'
 services:
   apache:
-    # image: rafaelcgstz/magento2
     build: .
     ports:
       - "80:80" # web
@@ -21,7 +20,8 @@ services:
     links:
       - db
     networks:
-      - M2_72-network
+      - DockerDragStar
+-network
 
   db:
     image: mariadb
@@ -35,7 +35,8 @@ services:
     volumes:
       - dbdata:/var/lib/mysql
     networks:
-      - M2_72-network
+      - DockerDragStar
+-network
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
@@ -47,21 +48,24 @@ services:
     ports:
      - 8080:80
     networks:
-      - M2_72-network
+      - DockerDragStar
+-network
 
   redis:
     image: redis
     ports:
      - 6379
     networks:
-      - M2_72-network
+      - DockerDragStar
+-network
 
   redis-session:
     image: redis
     ports:
      - 6379
     networks:
-      - M2_72-network
+      - DockerDragStar
+-network
 
   mailhog:
     image: mailhog/mailhog
@@ -69,7 +73,8 @@ services:
       - 1025:1025
       - 8025:8025
     networks:
-      - M2_72-network
+      - DockerDragStar
+-network
 
 networks:
   M2_72-network:
