@@ -12,11 +12,11 @@ Instalar [Docker](https://docs.docker.com/engine/installation/linux/docker-ce/ub
 
 ### Como usar
 
-Execute no seu terminal, altere o * MYMAGENTO2 * para usar o nome do seu projeto:
+Execute no seu terminal:
 
 ```
-git clone https://github.com/daniloaldm/DockerDragStar.git MYMAGENTO2
-cd MYMAGENTO2
+git clone https://github.com/daniloaldm/DockerDragStar.git DockerDragStar
+cd DockerDragStar
 docker-compose build
 ```
 
