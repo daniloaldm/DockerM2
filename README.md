@@ -2,7 +2,7 @@
 
 #  Magento 2 Docker to Development
 
-### Apache 2.4 + PHP 7.1 + OPCache + MariaDB + N98 Magerun 2 + XDebug + Redis
+### Apache 2.4 + PHP 7.2 + MariaDB + N98 Magerun 2 + XDebug
 
 [![Build Status](https://travis-ci.org/clean-docker/Magento2.svg?branch=master)](https://travis-ci.org/clean-docker/Magento2)
 [![Docker Build](https://img.shields.io/docker/build/rafaelcgstz/magento2.svg)](https://hub.docker.com/r/rafaelcgstz/magento2/)
@@ -81,7 +81,3 @@ or to run in the background using detached mode
 `$ docker-compose -f docker-compose.yml -f docker-compose.elasticsearch.yml up -d`
 
 **Elasticsearch:** http://localhost:9200
-
-### License
-
-MIT © 2018 [Rafael Corrêa Gomes](https://github.com/rafaelstz/) and [contributors](https://github.com/clean-docker/Magento2/graphs/contributors).
