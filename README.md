@@ -1,6 +1,6 @@
 ![Magento 2](https://cdn.rawgit.com/rafaelstz/magento2-snippets-visualstudio/master/images/icon.png)
 
-#  Magento 2 Docker to Development
+#  Magento 2 Docker para desenvolvimento
 
 ### Apache 2.4 + PHP 7.2 + MariaDB + N98 Magerun 2 + XDebug
 
