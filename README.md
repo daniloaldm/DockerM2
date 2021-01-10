@@ -20,8 +20,6 @@ git clone https://github.com/daniloaldm/DockerDragStar.git MYMAGENTO2
 
 ### Painéis
 
-Aproveite seus novos painéis!
-
 **Web server:** http://localhost/
 
 **PHPMyAdmin:** http://localhost:8080
