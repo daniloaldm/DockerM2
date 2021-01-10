@@ -20,8 +20,7 @@ services:
     links:
       - db
     networks:
-      - DockerDragStar
--network
+      - DockerDragStar-network
 
   db:
     image: mariadb
@@ -35,8 +34,7 @@ services:
     volumes:
       - dbdata:/var/lib/mysql
     networks:
-      - DockerDragStar
--network
+      - DockerDragStar-network
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
@@ -48,24 +46,21 @@ services:
     ports:
      - 8080:80
     networks:
-      - DockerDragStar
--network
+      - DockerDragStar-network
 
   redis:
     image: redis
     ports:
      - 6379
     networks:
-      - DockerDragStar
--network
+      - DockerDragStar-network
 
   redis-session:
     image: redis
     ports:
      - 6379
     networks:
-      - DockerDragStar
--network
+      - DockerDragStar-network
 
   mailhog:
     image: mailhog/mailhog
@@ -73,11 +68,10 @@ services:
       - 1025:1025
       - 8025:8025
     networks:
-      - DockerDragStar
--network
+      - DockerDragStar-network
 
 networks:
-  M2_72-network:
+  DockerDragStar-network:
     driver: bridge
 
 volumes:
