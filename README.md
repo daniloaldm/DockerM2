@@ -20,6 +20,8 @@ cd MYMAGENTO2
 docker-compose build
 ```
 
+Após isso basta clonar o repositório do seu projeto para dentro de src/
+
 ### Painéis
 
 **Web server:** http://localhost/
