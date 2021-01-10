@@ -54,6 +54,14 @@ Acesse seu container:
 ```
 ./shell
 ```
+Após isso acesse o diretório do seu projeto e execute para visualizar os comandos:
+```
+magento-cloud list
+```
+Obs: A autenticação por login não está funcionando no momento, logo você precisa utilizar a por token
+```
+magento-cloud auth:api-token-login
+```
 
 ### Elasticsearch 
 
