@@ -20,7 +20,7 @@ cd MYMAGENTO2
 docker-compose build
 ```
 
-Após isso basta clonar o repositório do seu projeto para dentro de src/
+Após isso basta clonar o repositório do seu projeto magento2 para dentro de src/
 
 ### Painéis
 
