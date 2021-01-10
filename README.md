@@ -49,6 +49,12 @@ Após isso basta clonar o repositório do seu projeto magento2 para dentro de sr
 | `./init`  | Se você não usou o comando CURL setup acima, use este comando alterando o nome do projeto.  | `./init MYMAGENTO2` |
 -->
 
+### Magento Cloud
+Acesse seu container:
+```
+./shell
+```
+
 ### Elasticsearch 
 
 Para usar a pesquisa elástica, você pode usar este comando abaixo:
