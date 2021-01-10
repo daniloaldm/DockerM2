@@ -4,23 +4,23 @@
 
 ### Apache 2.4 + PHP 7.2 + MariaDB + N98 Magerun 2 + XDebug
 
-### Requirements
+### Requisitos
 
 **Linux:**
 
-Install [Docker](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/) and [Docker-compose](https://docs.docker.com/compose/install/#install-compose).
+Instalar [Docker](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/) and [Docker-compose](https://docs.docker.com/compose/install/#install-compose).
 
-### How to use
+### Como usar
 
-Execute in your terminal, change the *MYMAGENTO2* to use the name of your project:
+Execute no seu terminal, altere o * MYMAGENTO2 * para usar o nome do seu projeto:
 
 ```
-git clone https://github.com/daniloaldm/DockerDragStar.git dockerDragstar
+git clone https://github.com/daniloaldm/DockerDragStar.git MYMAGENTO2
 ```
 
-### Panels
+### Painéis
 
-Enjoy your new panels!
+Aproveite seus novos painéis!
 
 **Web server:** http://localhost/
 
@@ -28,9 +28,9 @@ Enjoy your new panels!
 
 **Local emails:** http://localhost:8025
 
-### Features commands
+### Comandos
 
-| Commands  | Description  | Options & Examples |
+| Comandos  | Descrição  | Opções e exemplos |
 |---|---|---|
 | `./init`  | If you didn't use the CURL setup command above, please use this command changing the name of the project.  | `./init MYMAGENTO2` |
 | `./start`  | If you continuing not using the CURL you can start your container manually  | |
