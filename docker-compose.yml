@@ -11,6 +11,7 @@ services:
       - ~/.composer:/var/www/.composer
       - ~/.npm:/var/www/.npm
       - ~/.ssh:/home/www-data/.ssh
+      - ./apache2/log:/var/log/apache2
       # - ~/.nvm:/var/www/.nvm
     environment:
       XDEBUG_CONFIG: "remote_host=localhost"
