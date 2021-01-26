@@ -21,4 +21,4 @@ services:
       - 9300:9300
       - 9200:9200
     networks:
-      - M2_72-network
+      - DockerDragStar-network
