@@ -15,7 +15,7 @@ Instalar [Docker](https://docs.docker.com/engine/installation/linux/docker-ce/ub
 Execute no seu terminal:
 
 ```
-git clone https://github.com/daniloaldm/DockerDragStar.git DockerDragStar
+git clone https://github.com/daniloaldm/DockerM2.git DockerM2
 cd DockerM2
 docker-compose build
 ```
