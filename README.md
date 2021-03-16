@@ -16,7 +16,7 @@ Execute no seu terminal:
 
 ```
 git clone https://github.com/daniloaldm/DockerDragStar.git DockerDragStar
-cd DockerDragStar
+cd DockerM2
 docker-compose build
 ```
 
